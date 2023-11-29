@@ -1,0 +1,12 @@
+import pandas as pd
+d=pd.read_csv('E:\ppml\stud.csv')
+print(d.to_string())
+print(d.max())
+print(d.min())
+print(d.count())
+print(d.sum())
+print(d.mean())
+print(d.median())
+print(d.mode())
+print(d.quantile())
+print(d.var())

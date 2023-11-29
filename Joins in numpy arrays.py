@@ -1,0 +1,11 @@
+import numpy as np
+a1=np. array [1, 3,5,7,9])
+a2=np.array([2,4,6,8,10])
+print("Join")
+print(np.concatenate((a1,a2)))
+print ("Horizontal Join")
+print (np.hstack((a1,a2)))
+print ("Vertical Join")
+print(np.vstack((a1,a2)))
+print ("Depth Join")
+print(np.dstack((a1,a2)))
